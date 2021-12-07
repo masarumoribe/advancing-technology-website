@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <title>Advancing Technology Conference</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="wrap"></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header style="background: url('images/conference-hero.jpg'); background-size: cover; background-position: center;">
+            <div class="wrap">
+                <img src="images/hero-symbol.jpg" alt="Computer with code">
+                <h2><strong>ADVANCING TECHNOLOGY</strong></h2>
+                <h3>1st Annual Budding Developers Conference</h3>
+                <p>Orlando, FL - October 11, 2019</p>
+            </div>
+        </header>
+        <section id="tickets">
+            <div class="wrap">
+                <h1>Get your tickets!</h1>
+                <div class="form">
+                    <form method="post" action="">
+                        <p>
+                            <h3>Your Info</h3>
+                            <div class="input-name">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="NAME" required>
+                            </div>
+                            <div class="input-email">
+                                <label>Email</label>
+                                <input type="email" name="email" placeholder="EMAIL" required>
+                            </div>
+                        </p>
+                        <h3>Package</h3>
+                        <p>
+                        <select name="plan">
+                            <option value="1">Standard - $149</option>
+                            <option value="2">Premium - $249</option>
+                        </select>
+                        </p>
+                    </form>
+                    <form method="post" action="">
+                        <p>
+                        <input type="checkbox" name="addon[lodging]" value="1"> Add on lodging - $99<br>
+                        <input type="checkbox" name="addon[meals]" value="2"> Add on meals - $119<br>
+                        <div>
+                            <input type="submit" name="submit" value="Submit">
+                        </div>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <p><a href="index.html"> Back to home</a></p>
+        <footer>
+            <div class="wrap">
+                <p>&copy; 2019</p>
+            </div>
+        </footer>
+    </body>
+</html>
